@@ -27,11 +27,11 @@ public class WelcomeService {
        
        if(hour >= 4 & hour <= 10){
            greeting = "Good Morning";
-       }  if(hour >= 11 & hour <= 14){
+       }else if(hour >= 11 & hour <= 14){
            greeting = "Good Afternoon";
-       }if(hour >= 15 & hour <= 21){
+       }else if(hour >= 15 & hour <= 21){
            greeting = "Good Evening";
-       }if(hour >= 22 || hour <= 3 ){
+       }else if(hour >= 22 || hour <= 3 ){
            greeting = "Good Night";
        }
   
