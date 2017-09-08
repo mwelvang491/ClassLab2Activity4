@@ -29,9 +29,9 @@ public class WelcomeService {
            greeting = "Good Morning";
        }  if(hour >= 11 & hour <= 14){
            greeting = "Good Afternoon";
-       }if(hour >= 15 & hour <= 18){
+       }if(hour >= 15 & hour <= 21){
            greeting = "Good Evening";
-       }if(hour >= 19 || hour <= 3 ){
+       }if(hour >= 22 || hour <= 3 ){
            greeting = "Good Night";
        }
   
